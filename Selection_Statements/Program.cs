@@ -102,49 +102,60 @@ namespace Selection_Statements
         {
             Console.WriteLine("\nWhat's your favorite school subject? : ");
             string likedSubject = Console.ReadLine();
-            switch (likedSubject)
+            switch (likedSubject.ToLower())
             {
-                case "Math":
+                case "math":
+                case "mathematics":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}! (Ewww...)");
                     Console.ReadKey();
                     break;
 
-                case "History":
+                case "history":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Science":
+                case "science":
+                case "chemistry":
+                case "biology":
+                case "physics":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Physical Education":
+                case "physical education":
+                case "p.e.":
+                case "pe":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "English":
+                case "english":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Art":
+                case "art":
+                case "art history":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Music":
+                case "music":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Foreign Launguage":
+                case "foreign launguage":
+                case "spanish":
+                case "french":
+                case "italian":
+                case "arabic":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
 
-                case "Drama":
+                case "drama":
                     Console.WriteLine($"\nYour favorite subject is {likedSubject}!");
                     Console.ReadKey();
                     break;
